@@ -5,7 +5,7 @@ toc: true
 toc-depth: 4
 ---
 
-## [Online Scientific Calculator](https://www.desmos.com/scientific)
+**[Online Scientific Calculator](https://www.desmos.com/scientific)**
 
 \newpage
 
@@ -58,7 +58,7 @@ $$\bar{v} = \frac{\Delta \vec{x}}{\Delta t}$$
 | $\Delta x$ | Displacement (over the time period) (See: [Displacement](#displacement)) |
 | $\Delta t$ | Change in time (See: [Change in Time](#change-in-time))                  |
 
->Velocity is a **vector quantity**, it measures direction and magnitude.
+> Velocity is a **vector quantity**, it measures direction and magnitude.
 
 ### Average Acceleration
 
@@ -69,8 +69,8 @@ $$\bar{a} = \frac{\Delta \vec{v}}{\Delta t}$$
 | $\Delta v$ | Change in velocity (over the time period) (See: [Change in Velocity](#change-in-velocity)) |
 | $\Delta t$ | Change in time (See: [Change in Time](#change-in-time))                                    |
 
->Acceleration is a **vector quantity**, it measures direction and magnitude.\
->**Note:** Direction of acceleration is not always the same as direction of velocity. (See: [Circular Motion](#circular-motion)).
+> Acceleration is a **vector quantity**, it measures direction and magnitude.\
+> **Note:** Direction of acceleration is not always the same as direction of velocity. (See: [Circular Motion](#circular-motion)).
 
 ### Instantaneous Velocity
 
@@ -786,14 +786,6 @@ $$a_r = \frac{v_t^2}{r} = r \omega^2$$
 | $\alpha$ | angular acceleration of a particle (See: [Angular Acceleration](#angular-acceleration)) |
 | $a_r$    | radial (centripetal) acceleration of a particle                                         |
 
-### Right Hand Rule
-
-![RHR Diagram](right_hand_rule.png)
-
-> - Direction of rotation is determined by the position of the thumb
->     - If the thumb points in the direction of the axis of rotation (**typically upward**), then the direction is positive
->     - If the thumb points in the opposite direction of the axis of rotation (**typically downward**), then the direction is negative
-
 ### Angular Displacement
 
 $$\Delta \theta = \theta_f - \theta_i$$
@@ -1214,6 +1206,33 @@ $$\theta = 180 ° \implies \vec{A} \parallel \vec{B} \text{ (anti-parallel)} \im
 
 > The dot product of two vectors $\vec{A}$ and $\vec{B}$ is a scalar.
 
+### Cross Product
+
+$$\vec{A} \times \vec{B} = AB \sin \theta \ \hat{n}$$
+
+$$\hat{j} \times \hat{i} = - \hat{k}$$
+
+$$\hat{k} \times \hat{j} = - \hat{i}$$
+
+$$\hat{i} \times \hat{k} = - \hat{j}$$
+
+|                    |                                                                   |
+|--------------------|-------------------------------------------------------------------|
+| $\vec{A}, \vec{B}$ | vectors to be multiplied                                          |
+| $A, B$             | magnitudes of the vectors                                         |
+| $\theta$           | angle between the vectors                                         |
+| $\hat{n}$          | unit vector perpendicular to the plane of $\vec{A}$ and $\vec{B}$ |
+
+> For direction of $\hat{n}$ use RHR (See: [Right Hand Rule](#right-hand-rule)).
+
+### Right Hand Rule
+
+![RHR Diagram](right_hand_rule.png)
+
+> - Direction of rotation is determined by the position of the thumb
+>     - If the thumb points in the direction of the axis of rotation (**typically upward**), then the direction is positive
+>     - If the thumb points in the opposite direction of the axis of rotation (**typically downward**), then the direction is negative
+
 ## Integration
 
 $$\int_{x_1}^{x_2} x^n dx = \frac{x^{n+1}}{n+1} \Big|_{x_1}^{x_2} = \frac{x_2^{n+1}}{n+1} - \frac{x_1^{n+1}}{n+1}$$
@@ -1245,22 +1264,3 @@ $$\Delta v = v_f - v_i$$
 | $v_i$ | initial velocity |
 
 > **Note**: $\Delta v$ is a vector quantity, it uses vector subtraction (See: [Addition / Subtraction](#addition--subtraction)).
-
-### Cross Product
-
-$$\vec{A} \times \vec{B} = AB \sin \theta \ \hat{n}$$
-
-$$\hat{j} \times \hat{i} = - \hat{k}$$
-
-$$\hat{k} \times \hat{j} = - \hat{i}$$
-
-$$\hat{i} \times \hat{k} = - \hat{j}$$
-
-|                    |                                                                   |
-|--------------------|-------------------------------------------------------------------|
-| $\vec{A}, \vec{B}$ | vectors to be multiplied                                          |
-| $A, B$             | magnitudes of the vectors                                         |
-| $\theta$           | angle between the vectors                                         |
-| $\hat{n}$          | unit vector perpendicular to the plane of $\vec{A}$ and $\vec{B}$ |
-
-> For direction of $\hat{n}$ use RHR (See: [Right Hand Rule](#right-hand-rule))
